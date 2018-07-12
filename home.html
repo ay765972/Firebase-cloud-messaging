@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Firebase test
+        </title>
+    </head>
+    <body>
+        <h1>Hello ,This is firebase Cloud Messaging</h1>
+
+        
+
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyCx9i0pLHI402zYdshJQkeqZuMcy6m0fL0",
+            authDomain: "fir-react-d8d26.firebaseapp.com",
+            databaseURL: "https://fir-react-d8d26.firebaseio.com",
+            projectId: "fir-react-d8d26",
+            storageBucket: "fir-react-d8d26.appspot.com",
+            messagingSenderId: "1049769121640"
+          };
+          firebase.initializeApp(config);
+
+  const messaging = firebase.messaging(); 
+  messaging.requestPermission()
+  .then(function()
+  {
+      console.log('Have permission');
+      return messaging.getToken();
+  })
+  .then(function(token)
+  {
+      console.log(token);
+  })
+  .catch(function(err)
+  {
+      console.log('Error Occured.');
+  })
+
+  messaging.onMessage(function(payload)
+{
+console.log('onMessage: ',payload);
+});
+</script>
+    </body>
+</html>
