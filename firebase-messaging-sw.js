@@ -8,8 +8,8 @@ var config = {
     projectId: "fir-react-d8d26",
     storageBucket: "fir-react-d8d26.apadasdpspot.com",
     messagingSenderId: "1049769121640",
-    asd:"asdasdasd",
-    wqewqeasd:"wqasdasd"
+    asd:"asdasdasasdasdad",
+    wqewqeasd:"wqasdasdasdasdasd"
   };
   firebase.initializeApp(config);
  
