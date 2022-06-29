@@ -5,8 +5,8 @@ var config = {
     apiKey: "AIzaSyCx9i0pLHI402zYdshJQkeqZuMasdasdcy6m0fL0",
     authDomain: "fir-react-d8d26.firebaseapp.com",
     databaseURL: "https://fir-react-asdd8d26.firebaseio.com",
-    projectId: "fir-react-d8d26",
-    storageBucket: "fir-react-d8d26.apadasdpspot.com",
+    projectId: "fir-react-d8d2612213",
+    storageBucket: "fir-react-d8d26.apadasdpspot.com123123",
     messagingSenderId: "1049769121640",
     asd:"asdasdasasdasdad",
     wqewqeasd:"wqasdasdasdasdasd"
