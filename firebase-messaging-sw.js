@@ -19,7 +19,7 @@ var config = {
 {
     const title = 'Hello , World';
     const option = {
-        body:payload.data.status
+        body:payload.data.statusasdasd
     };
     return self.registration.showNotification(title,option);
 });
