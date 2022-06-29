@@ -6,8 +6,10 @@ var config = {
     authDomain: "fir-react-d8d26.firebaseapp.com",
     databaseURL: "https://fir-react-d8d26.firebaseio.com",
     projectId: "fir-react-d8d26",
-    storageBucket: "fir-react-d8d26.appspot.com",
-    messagingSenderId: "1049769121640"
+    storageBucket: "fir-react-d8d26.apadasdpspot.com",
+    messagingSenderId: "1049769121640",
+    asd:"asdasdasd",
+    wqewqeasd:"wqasdasd"
   };
   firebase.initializeApp(config);
  
