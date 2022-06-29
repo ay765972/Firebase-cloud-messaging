@@ -2,9 +2,9 @@ importScripts('https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/4.12.0/firebase-messaging.js');
 
 var config = {
-    apiKey: "AIzaSyCx9i0pLHI402zYdshJQkeqZuMcy6m0fL0",
+    apiKey: "AIzaSyCx9i0pLHI402zYdshJQkeqZuMasdasdcy6m0fL0",
     authDomain: "fir-react-d8d26.firebaseapp.com",
-    databaseURL: "https://fir-react-d8d26.firebaseio.com",
+    databaseURL: "https://fir-react-asdd8d26.firebaseio.com",
     projectId: "fir-react-d8d26",
     storageBucket: "fir-react-d8d26.apadasdpspot.com",
     messagingSenderId: "1049769121640",
